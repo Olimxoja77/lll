@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valuta Kursi va Davlatlar</title>
+</head>
+<body>
+
+    <h2>Valuta Kursini Tanlang</h2>
+
+    <label for="currency1">Valuta 1:</label>
+    <select id="currency1">
+        <option value="usd">USD - AQSH Dollar</option>
+        <option value="eur">EUR - Yevro</option>
+        <option value="rub">RUB - Rossiya Rubli</option>
+        <option value="jpy">JPY - Yaponiya Yenasi</option>
+    </select>
+
+    <label for="currency2">Valuta 2:</label>
+    <select id="currency2">
+        <option value="usd">USD - AQSH Dollar</option>
+        <option value="eur">EUR - Yevro</option>
+        <option value="rub">RUB - Rossiya Rubli</option>
+        <option value="jpy">JPY - Yaponiya Yenasi</option>
+    </select>
+
+    <label for="amount">Summani kiriting:</label>
+    <input type="number" id="amount" value="1" />
+
+    <button id="calculateButton">Hisoblash</button>
+
+    <h3>Hisoblangan Natija:</h3>
+    <p id="exchangeRate"></p>
+    <p id="currencyInfo"></p>
+    <p id="convertedAmount"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
